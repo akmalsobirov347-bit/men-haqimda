@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asror Sobirov</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="top" id="top">
+  <div class="top-in">
+    <a class="brand" href="#kirish">
+      <span class="brand-mark">AS</span>
+      <span class="brand-text"><b>Sobirov Asror</b><small>Dasturchi</small></span>
+    </a>
+    <nav class="nav" aria-label="Bo'limlar">
+      <a href="#kirish">kirish</a>
+      <a href="#haqimda">haqimda</a>
+      <a href="#konikmalar">ko'nikmalar</a>
+      <a href="#loyihalar">loyihalar</a>
+      <a href="#talim">ta'lim</a>
+      <a href="#aloqa">aloqa</a>
+    </nav>
+    <button class="theme-btn" id="theme" type="button" aria-label="Rangli mavzuni almashtirish">mavzu: avto</button>
+  </div>
+</header>
+
+<main>
+  <!-- ===== KIRISH ===== -->
+  <section id="kirish" class="hero">
+    <div class="hero-bg" aria-hidden="true"><div class="glow"></div><div class="grid3d"></div></div>
+    <div class="hero-in">
+      <div class="hero-copy">
+        <span class="pill fade" style="--d:.05s"><i></i>Yangi loyihalarga ochiq</span>
+        <p class="label fade" style="--d:.1s">kirish</p>
+        <h1>
+          <span class="w" style="--i:0"><span>Ishonchli</span></span>
+          <span class="w hl" style="--i:1"><span>veb-mahsulotlar</span></span>
+          <span class="w" style="--i:2"><span>yozaman.</span></span>
+        </h1>
+        <p class="lead fade" style="--d:.7s">Men Asror Sobirov, dasturchiman. G'oyani ishlaydigan ilovaga aylantiraman: interfeysdan tortib server va ma'lumotlar bazasigacha.</p>
+        <div class="cta fade" style="--d:.9s">
+          <a class="btn fill" href="#loyihalar">Loyihalarni ko'rish</a>
+          <a class="btn line" href="#aloqa">Bog'lanish</a>
+        </div>
+      </div>
+
+      <div class="stage" id="stage">
+        <canvas id="scene" aria-hidden="true"></canvas>
+        <div class="fb" aria-hidden="true">
+          <div class="cube-wrap big"><div class="cube"><i class="f1">HTML</i><i class="f2">CSS</i><i class="f3">JS</i><i class="f4">PY</i><i class="f5">&lt;/&gt;</i><i class="f6">10.2</i></div></div>
+        </div>
+        <span class="stage-hint">sichqonchani siljiting</span>
+      </div>
+
+      <div class="code tilt fade" data-tilt="5" style="--d:1.05s" role="img" aria-label="Asror haqida qisqa JavaScript obyekti">
+        <div class="code-top">asror.js</div>
+        <pre><span class="ln"><span class="k">const</span> asror = {</span><span class="ln">  ism: <span class="s">"Sobirov Asror"</span>,</span><span class="ln">  kasb: <span class="s">"Dasturchi"</span>,</span><span class="ln">  stek: [<span class="s">"JavaScript"</span>, <span class="s">"Python"</span>, <span class="s">"React"</span>],</span><span class="ln">  ochiq: <span class="o">true</span>, <span class="d">// yangi loyihalar uchun</span></span><span class="ln">};</span><span class="ln"> </span><span class="ln"><span class="k">await</span> asror.yozish();<span class="cursor"></span></span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEXNOLOGIYALAR LENTASI ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Python</span><span>REST API</span><span>PostgreSQL</span><span>Git</span><span>Docker</span><span>Linux</span><span>Figma</span>
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Python</span><span>REST API</span><span>PostgreSQL</span><span>Git</span><span>Docker</span><span>Linux</span><span>Figma</span>
+    </div>
+  </div>
+
+  <!-- ===== HAQIMDA ===== -->
+  <section id="haqimda" class="sec">
+    <div class="sec-head rv">
+      <p class="label">haqimda</p>
+      <h2>Kodni sodda va tushunarli yozaman</h2>
+    </div>
+    <div class="about-grid">
+      <div class="avatar-card tilt rv" data-tilt="9">
+        <!-- O'z rasmingizni qo'yish uchun: images papkasiga asror.jpg qo'shing va src ni "images/asror.jpg" ga o'zgartiring -->
+        <img src="images/asror.svg" alt="Asror Sobirov ish stoli: noutbuk, qahva va kitoblar" width="600" height="700" loading="lazy">
+        <span class="chip-float f1">&lt;/&gt;</span>
+        <span class="chip-float f2">{ }</span>
+        <span class="chip-float f3">.py</span>
+      </div>
+      <div class="about-copy">
+        <div class="about rv">
+          <p>Veb va mobil ilovalar yaratadigan dasturchiman. Frontend va backend ustida birdek ishlayman: foydalanuvchi ko'radigan interfeysdan boshlab, serverni va ma'lumotlar bazasini sozlashgacha.</p>
+          <p>Kodni o'qilishi oson, o'zgartirilishi qulay qilib yozishni afzal ko'raman. Yangi texnologiyalarni o'rganish va jamoada ishlash menga yoqadi.</p>
+        </div>
+        <dl class="facts rv">
+          <div><dt>yo'nalish</dt><dd>Frontend dasturlash</dd></div>
+          <div><dt>ish formati</dt><dd>Masofaviy yoki ofisda</dd></div>
+          <div><dt>qiziqishlar</dt><dd>Veb-ilovalar, avtomatlashtirish, ochiq kodli loyihalar</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KO'NIKMALAR ===== -->
+  <section id="konikmalar" class="sec">
+    <div class="sec-head rv">
+      <p class="label">ko'nikmalar</p>
+      <h2>Kundalik ishlatadigan  texnologiyalar</h2>
+    </div>
+    <div class="skill-grid">
+      <article class="skill tilt rv" data-tilt="10">
+        <h3>frontend</h3>
+        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li></ul>
+      </article>
+      <article class="skill tilt rv" data-tilt="10">
+        <h3>backend</h3>
+        <ul class="chips"><li>Node.js</li><li>Python</li><li>REST API</li><li>PostgreSQL</li></ul>
+      </article>
+      <article class="skill tilt rv" data-tilt="10">
+        <h3>saytlarr</h3>
+        <ul class="chips"><li>Git</li><li>Docker</li><li>Linux</li><li>Figma</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== LOYIHALAR ===== -->
+  <section id="loyihalar" class="sec">
+    <div class="sec-head rv">
+      <p class="label">loyihalar</p>
+      <h2>Tanlangan ishlar</h2>
+    </div>
+    <div class="projects">
+      <article class="proj tilt rv" data-tilt="8">
+        <div class="proj-img"><img src="images/cover-buyurtma.svg" alt="Buyurtma loyihasi muqovasi" width="800" height="500" loading="lazy"></div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <h3>Buyurtma</h3>
+          </div>
+          <p>Restoranlar uchun onlayn buyurtma tizimi: menyu, savat va buyurtma holatini kuzatish, telegram bot.</p>
+          <ul class="tags"><li>React</li><li>Node.js</li><li>PostgreSQL</li></ul>
+        </div>
+      </article>
+      <article class="proj tilt rv" data-tilt="8">
+        <div class="proj-img"><img src="images/cover-kitobxon.svg" alt="Kitobxon loyihasi muqovasi" width="800" height="500" loading="lazy"></div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <h3>Kitobxon</h3>
+          </div>
+          <p>Kitoblarni qidirish va shaxsiy o'qish ro'yxatini yuritish uchun veb-ilova.</p>
+          <ul class="tags"><li>JavaScript</li><li>Express</li><li>MongoDB</li></ul>
+        </div>
+      </article>
+      <article class="proj tilt rv" data-tilt="8">
+        <div class="proj-img"><img src="images/cover-eslatma.svg" alt="Eslatma bot loyihasi muqovasi" width="800" height="500" loading="lazy"></div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <h3>Eslatma bot</h3>
+          </div>
+          <p>Telegram'da eslatmalar va kunlik hisobotlarni vaqtida yuboradigan bot.</p>
+          <ul class="tags"><li>Python</li><li>aiogram</li><li>SQLite</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== TA'LIM ===== -->
+  <section id="talim" class="sec">
+    <div class="sec-head rv">
+      <p class="label">ta'lim</p>
+      <h2>O'qish yo'lim</h2>
+    </div>
+    <div class="log">
+      <article class="commit tilt rv" data-tilt="5">
+        <span class="hash">10.2</span>
+        <div class="commit-body">
+          <h3>IT Park, 10.2 guruh</h3>
+          <div class="when">hozir o'qiyapman</div>
+          <p>Dasturlash asoslarini o'rganyapman: veb-sahifalar yaratish va kod yozish.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li></ul>
+        </div>
+        <div class="cube-wrap" aria-hidden="true"><div class="cube"><i class="f1">HTML</i><i class="f2">CSS</i><i class="f3">JS</i><i class="f4">PY</i><i class="f5">&lt;/&gt;</i><i class="f6">10.2</i></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== ALOQA ===== -->
+  <section id="aloqa" class="sec">
+    <div class="sec-head rv">
+      <p class="label">aloqa</p>
+      <h2>Birga ishlaymizmi?</h2>
+    </div>
+    <p class="lead rv" style="margin: 0 0 24px;">Loyiha yoki ish taklifi bo'lsa, yozing. Odatda bir kun ichida javob beraman.</p>
+    <div class="contact">
+      <div class="row rv"><span class="k2">email</span><span class="v">asrorsobirov62@gmail.com</span><button class="copy" type="button">nusxa olish</button></div>
+      <div class="row rv"><span class="k2">telegram</span><span class="v">@sobirov_o1</span><button class="copy" type="button">nusxa olish</button></div>
+      <div class="row rv"><span class="k2">github</span><span class="v">github.com/username</span><button class="copy" type="button">nusxa olish</button></div>
+      <div class="row rv"><span class="k2">linkedin</span><span class="v">linkedin.com/in/username</span><button class="copy" type="button">nusxa olish</button></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot"><span>© 2026 Sobirov Asror</span></footer>
+
+<script src="three.min.js"></script>
+<script src="scene.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
